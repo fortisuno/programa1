@@ -32,7 +32,7 @@ function App() {
 			</Typography>
 			))}
 			<Box sx={{display: 'flex', justifyContent: 'right', mt: 3}}>
-				<Button href="https://github.com/pgomezm0486/programa1" variant="contained" target="_blank">Ver código Fuente</Button>
+				<Button href="https://github.com/pgomezm0486/programa1" variant="text" target="_blank">Ver código Fuente</Button>
 			</Box>
 		</Container>
 	);

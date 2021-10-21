@@ -67,9 +67,9 @@ export default function HorizontalStepper({children}) {
 						</Button>
 						<Box sx={{ flex: '1 1 auto' }} />
 						{activeStep === 0 ? (
-							<Button onClick={handleNext}>Encriptar</Button>
+							<Button onClick={handleNext} variant="contained">Encriptar</Button>
 							) : (
-							<Button onClick={handleComplete}>Desencriptar</Button>
+							<Button onClick={handleComplete} variant="contained">Desencriptar</Button>
 						) }
 					</Box>
 				</React.Fragment>
