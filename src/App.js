@@ -1,4 +1,4 @@
-import { Container, Typography } from '@mui/material';
+import { Container, Typography, Button, Box } from '@mui/material';
 import './App.css';
 import HorizontalStepper from './components/HorizontalStepper';
 import { View } from './components/View';
@@ -31,6 +31,9 @@ function App() {
 				{integrante}
 			</Typography>
 			))}
+			<Box sx={{display: 'flex', justifyContent: 'right', mt: 3}}>
+				<Button href="https://github.com/pgomezm0486/programa1" variant="contained" target="_blank">Ver código Fuente</Button>
+			</Box>
 		</Container>
 	);
 }
